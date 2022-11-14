@@ -12,6 +12,7 @@ import android.widget.TextView;
 
 import com.example.ffm_footbal_field_managenment.Database.RoomDatabase_DA;
 import com.example.ffm_footbal_field_managenment.Entity.UserEntity;
+import com.example.ffm_footbal_field_managenment.Login_register.LoginActivity;
 
 import java.util.List;
 
@@ -49,8 +50,8 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void run() {
                 // Công việc sẽ thực hiện sau 5s = 5000ms
-              //  Intent intent= new Intent(getBaseContext(), LoginActivity.class);
-              //  startActivity(intent);
+                Intent intent= new Intent(getApplication(), LoginActivity.class);
+                startActivity(intent);
                 finish();
             }
         }, 3000);
