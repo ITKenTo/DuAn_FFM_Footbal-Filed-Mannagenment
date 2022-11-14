@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <data>
+
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="@drawable/bg_login">
+
+            <ImageView
+                android:layout_marginTop="20dp"
+                android:layout_width="120dp"
+                android:layout_height="100dp"
+                android:src="@drawable/logo_ffm"
+                android:layout_gravity="center"
+
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_margin="20dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Create Account"
+                    android:textSize="25dp"
+                    android:textColor="#00BCD4"
+                    android:fontFamily="@font/ubuntubold"
+                    android:gravity="left"
+                    android:layout_marginBottom="30dp" />
+
+                <EditText
+                    android:id="@+id/ed_username"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Username"
+                    android:textSize="20dp"
+                    android:drawablePadding="10dp"
+                    android:drawableTint="#00BCD4"
+                    android:textColor="@color/black"
+                    android:layout_marginBottom="10dp"
+                    android:drawableStart="@drawable/ic_baseline_person_24" />
+
+                <EditText
+                    android:id="@+id/ed_fullname"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Fullname"
+                    android:textSize="20dp"
+                    android:drawablePadding="10dp"
+                    android:drawableTint="#00BCD4"
+                    android:textColor="@color/black"
+                    android:layout_marginBottom="10dp"
+                    android:drawableStart="@drawable/fullname" />
+
+                <EditText
+                    android:id="@+id/ed_phonenumber"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Phone Number"
+                    android:textSize="20dp"
+                    android:drawablePadding="10dp"
+                    android:drawableTint="#00BCD4"
+                    android:textColor="@color/black"
+                    android:layout_marginBottom="10dp"
+                    android:drawableStart="@drawable/phone" />
+
+                <EditText
+                    android:id="@+id/ed_password"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="20dp"
+                    android:drawablePadding="10dp"
+                    android:hint="Password"
+                    android:drawableStart="@drawable/ic_baseline_lock_24"
+                    android:drawableTint="#00BCD4"
+                    android:textColor="@color/black"
+                    android:inputType="textPassword" />
+
+                <EditText
+                    android:id="@+id/ed_cofmirmpassword"
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="20dp"
+                    android:drawablePadding="10dp"
+                    android:hint="Comfirm Password"
+                    android:drawableStart="@drawable/ic_baseline_lock_24"
+                    android:drawableTint="#00BCD4"
+                    android:textColor="@color/black"
+                    android:inputType="textPassword" />
+
+                <Spinner
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:id="@+id/spinner"
+                    android:layout_marginTop="8dp" />
+
+
+                <Button
+                    android:id="@+id/btn_login"
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="11dp"
+                    android:textSize="20dp"
+                    android:text="Register"
+                    android:backgroundTint="#009688" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textAlignment="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="You already an account, go back to "
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:id="@+id/tv_login"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="15dp"
+                    android:text="Login!"
+                    android:textColor="@color/teal_700" />
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+</layout>

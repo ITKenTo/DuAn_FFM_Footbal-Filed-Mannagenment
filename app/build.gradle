@@ -8,6 +8,7 @@ android {
     buildFeatures {
         dataBinding true
     }
+
     defaultConfig {
         applicationId "com.example.ffm_footbal_field_managenment"
         minSdk 24
