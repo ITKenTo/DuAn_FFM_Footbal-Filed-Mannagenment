@@ -3,6 +3,9 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Android_Coban/DuAn_FFM_Footbal-Filed-Mannagenment/app/src/main/res/drawable/fullname.xml" value="0.121" />
+        <entry key="..\:/Android_Coban/DuAn_FFM_Footbal-Filed-Mannagenment/app/src/main/res/drawable/ic_baseline_person_24.xml" value="0.1" />
+        <entry key="..\:/Android_Coban/DuAn_FFM_Footbal-Filed-Mannagenment/app/src/main/res/layout/activity_register.xml" value="0.10989583333333333" />
         <entry key="..\:/LT_Andorid_Nang_Cao/FFMFootbalFieldManagenment/app/src/main/res/layout/activity_main.xml" value="0.21666666666666667" />
         <entry key="..\:/LT_Andorid_Nang_Cao/FFMFootbalFieldManagenment/app/src/main/res/layout/item_account.xml" value="0.21666666666666667" />
       </map>
