@@ -3,12 +3,10 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/LT_Andorid_Nang_Cao/FFMFootbalFieldManagenment/app/src/main/res/drawable-v24/ic_baseline_lock_24.xml" value="0.188" />
-        <entry key="..\:/LT_Andorid_Nang_Cao/FFMFootbalFieldManagenment/app/src/main/res/drawable-v24/ic_baseline_person_24.xml" value="0.188" />
-        <entry key="..\:/LT_Andorid_Nang_Cao/FFMFootbalFieldManagenment/app/src/main/res/layout/activity_change_password.xml" value="0.35144927536231885" />
-        <entry key="..\:/LT_Andorid_Nang_Cao/FFMFootbalFieldManagenment/app/src/main/res/layout/activity_login.xml" value="0.18541666666666667" />
-        <entry key="..\:/LT_Andorid_Nang_Cao/FFMFootbalFieldManagenment/app/src/main/res/layout/activity_main.xml" value="0.21666666666666667" />
-        <entry key="..\:/LT_Andorid_Nang_Cao/FFMFootbalFieldManagenment/app/src/main/res/layout/item_account.xml" value="0.21666666666666667" />
+=======
+        <entry key="..\:/Android_Coban/DuAn_FFM_Footbal-Filed-Mannagenment/app/src/main/res/drawable/fullname.xml" value="0.121" />
+        <entry key="..\:/Android_Coban/DuAn_FFM_Footbal-Filed-Mannagenment/app/src/main/res/drawable/ic_baseline_person_24.xml" value="0.1" />
+        <entry key="..\:/Android_Coban/DuAn_FFM_Footbal-Filed-Mannagenment/app/src/main/res/layout/activity_register.xml" value="0.10989583333333333" />
       </map>
     </option>
   </component>
