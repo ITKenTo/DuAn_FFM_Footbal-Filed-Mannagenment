@@ -10,18 +10,24 @@ import android.view.animation.AnimationUtils;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.example.ffm_footbal_field_managenment.Database.RoomDatabase_DA;
+import com.example.ffm_footbal_field_managenment.Entity.UserEntity;
+
+import java.util.List;
+
 public class MainActivity extends AppCompatActivity {
 
+    List<UserEntity> list;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         final Handler handler = new Handler();
 
-//        list= RoomDatabase_DA.getInstance(this).userDAO().getSelect();
-//        if (list.size()==0) {
-//            RoomDatabase_DA.getInstance(this).userDAO().insert(new UserEntity("admin","Admin","4444","ADMIN","adminadmin"));
-//        }
+        list= RoomDatabase_DA.getInstance(this).userDAO().getSelect();
+        if (list.size()==0) {
+            RoomDatabase_DA.getInstance(this).userDAO().insert(new UserEntity("admin","Admin","4444","ADMIN","adminadmin"));
+        }
 
 //        RoomDatabase_DA.getInstance(this).userDAO().insert(new UserEntity("ph26746","Nguyễn Văn Dũng","0392289601","KH","28052003"));
 //        RoomDatabase_DA.getInstance(this).userDAO().insert(new UserEntity("ChuSan","Chủ Sân","4444","CS","chusan2003"));
